@@ -35,10 +35,10 @@ utils/data_splitter.py - spilts into training, test, and optional validation set
 To run:
 
 install dependencies
-    - Tensorflow
-    - Numpy
-    - Pandas
-    - Matplotlib
+- Tensorflow
+- Numpy
+- Pandas
+- Matplotlib
     
 Then run:
 
