@@ -8,7 +8,7 @@ Several variations of network architecture can be used to model the data with sm
 
 The graph for this configuration is as follows:
 
-![lstm graph] (lstm_dnn_graph.png)
+![lstm graph] (img/lstm_dnn_graph.png)
 
 This uses the development branch of Tensorflow, currently version [0.11.0rc0](https://www.tensorflow.org/)
 
@@ -23,7 +23,7 @@ done in 4.848s.
 Overall time: 794.409s
 ```
 
-![results graph] (time_series_LSTM_001.png)
+![results graph] (img/time_series_LSTM_001.png)
 
 To run:
 
