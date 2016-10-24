@@ -4,11 +4,13 @@ This is part of a project working with time series to build a predictive model a
   
 Ticker data is collected on 15 second intervals, and predicted 5 minutes into the future. 
 
-Several variations of network architecture can be used to model the data with small modifications to the layers. In it's current form, the model uses a Long Short Term Memory (LSTM) combined with a stacked neural network and dropout. LSTMs can learn long term dependencies, usually in the context of speech or text, but likewise seemed like a logical choice with which to build a time series predictor.   
+Several variations of network architecture can be used to model the data with small modifications to the layers. In its current form, the model uses a Long Short Term Memory (LSTM) combined with a stacked neural network and dropout. LSTMs can learn long term dependencies, usually in the context of sequences of speech or text, and likewise seemed like a logical choice with which to build a time series predictor.   
 
 The graph for this configuration is as follows:
 
 ![lstm graph] (lstm_dnn_graph.png)
+
+This uses the development branch of Tensorflow, currently version [0.11.0rc0](https://www.tensorflow.org/)
 
 More data is needed to adequately assess results, but for now, results look something like this:
 
@@ -23,6 +25,13 @@ Overall time: 794.409s
 
 ![results graph] (time_series_LSTM_001.png)
 
+To run:
+
+install dependencies
+
+```
+python3 time_series_lstm.py
+```
 
 Send donations to:
 ```
