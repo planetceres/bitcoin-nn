@@ -46,7 +46,7 @@ Then run:
 python3 time_series_lstm.py
 ```
 
-Send donations to:
+Then send donations to:
 ```
 3DrXNQydchoC7aaNHa4F4BSNCL2YyZJAjn
 ``` 
