@@ -2,7 +2,7 @@
 
 This is part of a project working with time series to build a predictive model around bitcoin prices. Stocks and cryptocurrency data is noisy and likely unpredictable with small amounts of data, so this is more an exercise in experimentation than a serious attempt to gain any advantage in the market.
   
-Ticker data is collected on 15 second intervals, and predicted 5 minutes into the future. 
+Ticker data is collected on 15 second intervals, and predicted 5 minutes into the future. In addition to ticker data, a second data file contains features collected using the [Bitcoin Developer Websocket API](https://blockchain.info), which provides streaming data on new transactions and blocks.
 
 Several variations of network architecture can be used to model the data with small modifications to the layers. In its current form, the model uses a Long Short Term Memory (LSTM) combined with a stacked neural network and dropout. LSTMs can learn long term dependencies, usually in the context of sequences of speech or text, and likewise seemed like a logical choice with which to build a time series predictor.   
 
