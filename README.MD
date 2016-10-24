@@ -25,9 +25,22 @@ Overall time: 794.409s
 
 ![results graph] (img/time_series_LSTM_001.png)
 
+Directories and scripts:
+
+time_series_lstm.py - main program
+utils/cleaner.py - cleans the two datasets and fills in missing data with redundant data source
+utils/data_loader.py - loads and formats raw data into dataframes
+utils/data_splitter.py - spilts into training, test, and optional validation sets
+
 To run:
 
 install dependencies
+    - Tensorflow
+    - Numpy
+    - Pandas
+    - Matplotlib
+    
+Then run:
 
 ```
 python3 time_series_lstm.py
